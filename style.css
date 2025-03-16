@@ -8,6 +8,9 @@
   border-radius: 10px;
   font-family: monospace;
   display: flex;
+  flex-wrap: wrap;
+
+
 }
 
 .contact {
@@ -17,6 +20,9 @@
   padding: 20px;
   margin: 15px;
   width: 400px;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .photo {
@@ -28,6 +34,10 @@
 
 .info {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 2;
 }
 
 .info p {
@@ -36,6 +46,9 @@
 
 .buttons {
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .call,
@@ -43,4 +56,56 @@
   width: 30px;
 }
 
-/* ----Tvoje styly----- */
+
+/* ----Tvoje styly-----
+
+/* Reseni od Nely: 
+* {
+  box-sizing: border-box;
+}
+
+.contact-list {
+  background-color: #cfe1e7;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #446d8059;
+  padding: 20px;
+  margin: 15px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #6995a959;
+}
+
+.info {
+  margin-left: 20px;
+  flex-grow: 2;
+}
+.info p {
+  font-size: 22px;
+}
+
+.buttons {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.call,
+.message {
+  width: 30px;
+}
+*/
